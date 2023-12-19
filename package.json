@@ -1,0 +1,36 @@
+{
+  "name": "nestjs-auth",
+  "version": "1.0.0",
+  "description": "NestJS Authentication Module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/nestjs-auth.git"
+  },
+  "keywords": ["nestjs", "authentication", "mongodb"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^7.0.0",
+    "@nestjs/core": "^7.0.0",
+    "@nestjs/mongoose": "^7.0.0",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^7.0.0",
+    "@nestjs/schematics": "^7.0.0",
+    "@nestjs/testing": "^7.0.0",
+    "@types/jest": "^26.0.0",
+    "@types/mongoose": "^5.10.0",
+    "jest": "^26.0.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^4.0.0"
+  }
+}
